@@ -1,0 +1,8 @@
+{
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "emmet.showExpandedAbbreviation": "never",
+  "extensions.ignoreRecommendations": true,
+  "emmet.includeLanguages": {},
+  "codeium.aggressiveShutdown": true
+}

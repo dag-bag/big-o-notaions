@@ -20,8 +20,11 @@ function pushToStack(stack, value) {
 function popFromStack(stack) {
   return stack.pop(); // O(1)
 }
-function insertAtBeginning(list, value) {
-  const newNode = new Node(value);
-  newNode.next = list.head;
-  list.head = newNode; // O(1)
+
+// node linkied lsit
+class Node {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
 }
